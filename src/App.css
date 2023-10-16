@@ -1,0 +1,26 @@
+@font-face {
+  font-family: 'CircularStd';
+  font-style: normal;
+  src: url(./fonts/CircularStd-Medium.woff) format('woff'),
+    url(./fonts/CircularStd-Medium.woff2) format('woff2');
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.App {
+  font-family: 'CircularStd';
+}

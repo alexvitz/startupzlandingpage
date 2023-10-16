@@ -1,0 +1,319 @@
+.footer {
+  display: flex;
+  width: 100%;
+  padding: 5% 7%;
+  justify-content: center;
+}
+
+.footerSection {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.footerSectionTitle {
+  color: #3d4f5c;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  margin-bottom: 20px;
+}
+
+.footerLinks {
+  color: #46b8c8;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 35px;
+  margin-bottom: 0;
+  cursor: pointer;
+}
+
+.navBar {
+  width: 100%;
+  height: fit-content;
+  padding: 3% 5%;
+}
+
+.socialMediaLogo {
+  width: 23px;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.footerSecondaryText {
+  color: #939393;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  white-space: break-spaces;
+  margin-bottom: 0;
+}
+
+.transparentBtn {
+  display: flex;
+  border-radius: 32.5px;
+  background-color: transparent;
+  border: 1px solid #46b8c8;
+  color: #46b8c8;
+  padding: 1% 4%;
+  text-align: center;
+  transition: 0.25s;
+}
+
+.transparentBtn:hover {
+  background-color: lightgrey;
+}
+
+.blueBtn {
+  @extend .transparentBtn;
+  background-color: #46b8c8;
+  color: white;
+  padding: 1% 4%;
+}
+
+.blueBtn:hover {
+  background-color: lightgrey;
+}
+
+.blackLinks {
+  color: #3d4f5c;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: -0.18px;
+  margin-right: 8%;
+  cursor: pointer;
+}
+
+.whiteContainer {
+  height: 80%;
+  padding: 5%;
+}
+
+.pageTitle {
+  color: #3d4f5c;
+  font-size: 85px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 85px;
+  letter-spacing: -1.7px;
+}
+
+.orangeText {
+  color: #fb8958;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: -0.24px;
+  white-space: break-spaces;
+}
+
+.shadedContainer {
+  @extend .whiteContainer;
+  background-color: #fbfafa;
+  padding: 8% 5%;
+}
+
+.pageSubtitle {
+  color: #3d4f5c;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: -1px;
+}
+
+.infoText {
+  color: #3d4f5c;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 38px;
+  letter-spacing: -0.3px;
+  white-space: break-spaces;
+}
+
+.stepNumber {
+  color: #fb8958;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: -0.3px;
+  padding-bottom: 20px;
+  width: fit-content;
+}
+
+.bannerText {
+  color: #fb8958;
+  text-align: center;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: -0.4px;
+  margin-bottom: 0;
+  white-space: break-spaces;
+}
+
+.ben {
+  width: 110px;
+}
+
+.benContainer {
+  position: relative;
+  cursor: pointer;
+}
+
+.close-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.popUp {
+  position: absolute;
+  display: flex;
+  top: -50px;
+  right: 80px;
+  transition: 2s;
+}
+
+.popUpInfo {
+  width: 280px;
+}
+
+.thumbsUpImg {
+  width: 60px;
+  height: 65px;
+  margin-bottom: 20px;
+}
+
+.underLine {
+  width: 50px;
+  border-bottom: 1px solid #3d4f5c;
+  opacity: 1;
+}
+
+.banner {
+  @extend .whiteContainer;
+  display: flex;
+  align-items: center;
+  height: 35%;
+}
+
+.shadedBanner {
+  background-color: #fbfafa;
+  padding: 6% 0;
+}
+
+.contactConatiner {
+  height: 930px;
+  background-color: #ffc351;
+  padding: 60px 125px 0 125px;
+}
+
+.contactTitle {
+  color: #fff;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 55px;
+  letter-spacing: -1.2px;
+  margin-bottom: 35px;
+  white-space: break-spaces;
+}
+
+.contactSubtitle {
+  color: #fff;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.24px;
+  margin-bottom: 35px;
+}
+
+.inputsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  height: 70%;
+  border-radius: 10px;
+  background: #f3f3f3;
+  box-shadow: 0px 8px 35px 0px rgba(187, 169, 142, 0.15);
+  padding: 0 5%;
+}
+
+.contactInput {
+  width: 100%;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0px 8px 35px 0px rgba(187, 169, 142, 0.15);
+  padding: 9px 0 9px 16px;
+  margin: 8px 0;
+  outline: none;
+  border: none;
+}
+
+textarea {
+  height: 50%;
+}
+
+.contactBtn {
+  @extend .blueBtn;
+  background-color: #3d4f5c;
+  margin-top: 35px;
+}
+
+.rocketImg {
+  width: 70%;
+  height: 65%;
+}
+
+.projectsDescription {
+  color: #3d4f5c;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: -0.16px;
+  white-space: break-spaces;
+}
+
+.projectContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 35%;
+  border-radius: 30px;
+  background: #fff;
+  box-shadow: 0px 8px 35px 0px rgba(187, 169, 142, 0.15);
+  margin: 12px;
+  padding: 3% 5%;
+}
+
+.projectName {
+  text-align: center;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: -0.32px;
+  margin-bottom: 25px;
+}
+
+.inputError {
+  color: red;
+}
